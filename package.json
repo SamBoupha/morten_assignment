@@ -1,0 +1,26 @@
+{
+  "name": "morten_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "d2-excel": "commander.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "commander": "^2.11.0",
+    "express": "^4.15.4",
+    "helmet": "^3.8.1",
+    "morgan": "^1.8.2",
+    "node-fetch": "^1.7.3",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "uuid": "^3.1.0",
+    "xlsx": "^0.11.3"
+  }
+}
