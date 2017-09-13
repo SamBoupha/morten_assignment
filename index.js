@@ -3,8 +3,8 @@ const bodyParser = require( 'body-parser' );
 const morgan = require( 'morgan' );
 const helmet = require( 'helmet' );
 const uuid = require( 'uuid/v4' );
-const { passport } = require('./components/auth');
-const excelReader = require('./components/excel-reader');
+const { passport } = require('./utils/auth');
+const excelReader = require('./utils/excel-reader');
 const program = require( 'commander' );
 
 const app = express();

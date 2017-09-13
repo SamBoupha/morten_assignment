@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 const program = require( 'commander' );
-const excelReader = require('./components/excel-reader');
+const excelReader = require('./utils/excel-reader');
 const fetch = require('node-fetch');
-const generateCode = require('./components/uid');
+const generateCode = require('./utils/uid');
 
 program.version( '0.1.0' );
 
